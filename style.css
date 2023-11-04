@@ -1,0 +1,431 @@
+@import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
+ body
+{
+    font-size:16px;
+} 
+.container #no
+{
+    box-sizing: border-box;
+    background-color: hsl(224, 21%, 14%);
+    width:8000px;
+    height:80px;
+    color:white;
+    padding:8px 8px;
+    margin-left: 5px;
+    border-radius: 8px;
+    margin-top: 3000px;
+}
+.container h3
+{
+    color:hsl(224, 21%, 14%);
+    margin-right:420px;
+    display:inline;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.container .boxes
+{
+    display:inline;
+}
+
+#mark-webber {
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+}
+#first-tournament
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 600;
+    font-style: bold;
+}
+#first-tournament:hover{
+    cursor:pointer;
+    color:rgb(15, 15, 252);
+}
+
+
+.mark-as-read {
+    margin-left:400px;
+    top:0;
+    right:0;
+    margin-top:0;
+    margin-bottom: 30px;
+    cursor:pointer;
+    display:inline;
+  }
+  
+.container
+{
+    box-sizing:border-box;
+    text-align: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width:600px;
+    height:800px;
+    padding:10px 10px;
+    margin: 10px 10px;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 300px;
+    margin-right: 400px;
+}
+body
+{
+    background-color:  hsl(210, 60%, 98%);
+}
+.container .box1 
+{
+    background-color: hsl(211, 68%, 94%);
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+    height: 60px;
+    align-items:center;
+    display:flex;
+    margin-top: 20px;
+}
+.container .box1 .text
+{    
+    display:flex;
+    flex-direction: column;
+}
+.container .box1 .content .name {
+    margin-left: 13px;
+    margin-bottom: 5px; /* Reduce the space between name and time */
+}
+
+.container .box1 .content .time {
+    margin-right: 380px; /* Adjust this margin as needed */
+    margin-top: 5px; /* Reduce the space between name and time */
+    color: hsl(219, 14%, 63%);
+}
+
+.container .box1 img
+{
+    width:10%;
+    margin-left: 10px;
+}
+
+.container .box2 {
+    background-color: hsl(211, 68%, 94%);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px; /* Remove the fixed height to allow content to expand */
+    display: flex;
+    align-items: center;
+}
+
+.container .box2 img {
+    width: 10%;
+    margin-right: 10px;
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.container .box2 .content {
+    flex: 1; /* Allow content to fill available space */
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box2 .content .name {
+    margin-right: 290px;
+    margin-bottom: 5px;/* Adjusted margin-right */
+}
+
+.container .box2 .content .time {
+    margin-right: 410px; /* Adjust this margin as needed */
+    margin-top: 5px;
+    color:hsl(219, 14%, 63%); /* Reduced margin-bottom */
+}
+
+.container .box3 {
+    background-color: hsl(211, 68%, 94%);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+#angela
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+}
+#angela:hover
+{
+    color: rgb(15, 15, 252);
+    cursor:pointer;
+}
+.container .box3 img {
+    width: 10%;
+    margin-right: 10px;
+    margin-left: 10px; /* Adjust as needed */
+}
+
+.container .box3 .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box3 .content .name {
+    /* Adjust the margin-right to control the space between the name and the box edge */
+    margin-right: 120px; /* Adjust as needed */
+    margin-bottom: 5px;
+}
+
+.container .box3 .content .time {
+    /* Adjust the margin-right to control the space between the time and the box edge */
+    margin-right: 400px; /* Adjust as needed */
+    margin-top: 5px;
+    color:hsl(219, 14%, 63%);
+}
+#john
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+}
+#chess
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+}
+#chess:hover
+{
+  color:rgb(15, 15, 252);
+  cursor:pointer;
+}
+
+
+.container .box4 {
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container .box4 img {
+    width: 10%;
+    margin-right: 10px;
+    margin-bottom:110px; 
+    margin-left: 10px;
+}
+
+.container .box4 .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box4 .content .info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.container .box4 .content .info .name {
+    margin-right: 160px; /* Reduced margin-right */
+    margin-bottom: 5px; /* Adjusted margin-top */
+}
+
+.container .box4 .content .info .time {
+    margin-right: 380px; /* Reduced margin-right */
+    margin-top: 5px; /* Adjusted margin-bottom */
+    color:hsl(219, 14%, 63%);
+}
+#Rizky
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+}
+
+
+.container .box4 .content .message {
+    background-color:hsl(205, 33%, 90%)/* Adjust the styling for .message if needed */;
+    width:475px;
+    height:80px;
+    margin-bottom:30px;
+}
+
+.container .box5 {
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    /* width:300px; */
+}
+
+.container .box5 img {
+    width: 10%;
+    margin-right: 10px;
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+.container .box5 .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .box5 .content .name {
+    margin-right: 170px; /* Adjusted margin-right */
+    margin-bottom: 5px; /* Adjusted margin-top */
+    margin-left: 1px;
+}
+
+.container .box5 .content .time {
+    margin-right: 390px; /* Adjusted margin-right */
+    margin-top: 5px; /* Adjusted margin-top */
+    color:hsl(219, 14%, 63%);
+}
+#Kimberly
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+
+}
+
+.container .box6
+{   
+    padding-top:20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+    height: 60px;
+    display:flex;
+    align-items:center;
+    /* margin-bottom: 180px; */
+}
+.container .box6 .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container .box6 .content .name {
+    margin-right: 80px; /* Adjusted margin-right */
+    margin-bottom: 5px; 
+    white-space: nowrap;
+    margin-left:10px;
+}
+.container .box6 .content .time{
+    margin-right: 440px; /* Adjusted margin-right */
+    margin-top: 5px; 
+    color:hsl(219, 14%, 63%);
+}
+.container .box6 .content #next
+{
+    display:block;
+    margin-right:300px;
+}
+.container .box6 img
+{
+    width:10%;
+    margin-left: 10px;
+}
+#Nathan
+{
+    
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+
+}
+.container .box7 
+{   
+    padding-top:20px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+}
+.container .box7 img
+{
+    width:10%;
+    margin-left: 10px;
+}
+.container .box7 .content
+{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+.container .box7 .content .name
+{
+    margin-right:200px;
+    margin-bottom: 5px;
+}
+
+.container .box7 .content .time
+{
+    margin-right:350px;
+    margin-top: 5px;
+    color:hsl(219, 14%, 63%);
+}
+#anna
+{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    font-style: bold;
+}
+#Chess
+{
+    color:hsl(219, 12%, 42%);
+    /* font-style: bold; */
+    font-weight: 600;
+}
+#Game
+{
+    color:hsl(219, 12%, 42%);
+    /* font-style: bold; */
+    font-weight: 600;
+}
+@media (max-width: 375px) {
+    body {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .container #no {
+        padding: 5px; /* Adjusted padding for smaller screens */
+    }
+
+    .container .box1 .content .name,
+    .container .box2 .content .name,
+    .container .box3 .content .name,
+    .container .box4 .content .info .name,
+    .container .box5 .content .name,
+    .container .box6 .content .name,
+    .container .box7 .content .name {
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+    .container .box1 .content .time,
+    .container .box2 .content .time,
+    .container .box3 .content .time,
+    .container .box4 .content .info .time,
+    .container .box5 .content .time,
+    .container .box6 .content .time,
+    .container .box7 .content .time {
+        margin-right: 0; /* Remove right margin for smaller screens */
+    }
+
+    #mark-webber, #angela, #Rizky, #Kimberly, #Nathan, #anna, #Chess, #Game {
+        font-weight: 600; /* Reduce font weight for smaller screens */
+    }
+}
